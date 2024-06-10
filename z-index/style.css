@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 100%;
+    background-color: #feedea;
+}
+
+.box1,.box2,.box3 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-family: "Trirong", serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.box1 {
+    background: red;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.box2 {
+    background-color: blue;
+    top: 45px;
+    left: 45px;
+    z-index: 2;
+}
+
+.box3 {
+    background-color: purple;
+    top: calc(45px * 2);
+    left: calc(45px * 2);
+    z-index: 3;
+}
